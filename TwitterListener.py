@@ -124,9 +124,9 @@ d1 = d1.strftime('%Y-%m-%d')
 d2 = d2.strftime('%Y-%m-%d')
 
 
-locateRank()
+# locateRank()
 try:
     scrape()
-    print('current sentiment index is ' , current_sentiment ,' based on ' , indexed_mention ,' mentions and ' , upvotes_index , ' upvotes')
+    #print('current sentiment index is ' , current_sentiment ,' based on ' , indexed_mention ,' mentions and ' , upvotes_index , ' upvotes')
 except Exception as e: 
     print(e)
